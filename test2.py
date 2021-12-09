@@ -8,7 +8,7 @@ temp = st.number_input('溫度的資料收集')
 rpm = st.number_input('轉速資料收集')
 confirm_input=st.button('確認')
 if confirm_input:
-    if gas <= car_simulation.get('gas_warning'):
+    if gas >= car_simulation.get('gas_warning'):
         st.write('油量足夠')
     else:
         st.write('準備加油!!')
