@@ -1,3 +1,4 @@
+st.write('我們的組名是 隨便啦 先孤輪')
 import streamlit as st  
 w = st.number_input('請輸入體重(KG)？')
 h = st.number_input('請輸入身高(M)？')
